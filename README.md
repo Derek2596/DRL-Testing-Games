@@ -60,3 +60,7 @@ python -m src.eval_subway --algo ppo --persona survivor --episodes 10
  [ 0.  0. -1.  0.  0.]  
  [ 0.  0.  0.  0.  0.5]]
 ```
+## Play the Maze Game
+```
+python play_maze.py
+```
