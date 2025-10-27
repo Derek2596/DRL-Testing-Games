@@ -46,7 +46,7 @@ Use --render to view the model play one live visualization episode
 python -m src.eval_subway --algo ppo --persona survivor --episodes 10
 ```
 
-## Environments
+## Training Inputs
 | Environment       | Observation Space                                         | Action Space                      | Rewards / Persona                                                                 |
 | ----------------- | --------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------- |
 | **Subway** | 1D lane position + obstacles                              | 0: stay, 1: left, 2: right        | Survivor: +1 per step alive, -1 for crash; Explorer: bonus for visiting new lanes |
