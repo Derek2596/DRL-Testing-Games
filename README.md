@@ -1,7 +1,7 @@
 # How to run
 ## Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
+python -m venv venv  
+source venv/bin/activate  # Linux/Mac  
 .venv\Scripts\activate     # Windows
 
 ## Install dependencies
