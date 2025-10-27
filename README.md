@@ -49,8 +49,8 @@ python -m src.eval_subway --algo ppo --persona survivor --episodes 10
 ## Training Inputs
 | Environment       | Observation Space                                         | Action Space                      | Rewards / Persona                                                                 |
 | ----------------- | --------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------- |
-| **Subway** | 1D lane position + obstacles                              | 0: stay, 1: left, 2: right        | Survivor: +1 per step alive, -1 for crash; Explorer: bonus for visiting new lanes |
-| **Maze**     | 5×5 grid with agent=1, goal=0.5, obstacles=-1 | 0: up, 1: down, 2: left, 3: right | Survivor: -0.01 per step, +1 for goal; Explorer: +0.1 per new tile, +1 for goal   |
+| **Subway** | 1D lane position + obstacles                              | 0: stay, 1: left, 2: right        | Survivor: +1 per step alive, -1 for crash; Explorer: bonus for switching lanes |
+| **Maze**     | 5×5 grid with agent=1, goal=0.5, obstacles=-1 | 0: up, 1: down, 2: left, 3: right | Survivor: -0.01 per step, +1 for goal; Explorer: +0.1 per new tile, +0.5 for goal   |
 
 ### Example Obseravtion space for the Maze Game:
 ```
