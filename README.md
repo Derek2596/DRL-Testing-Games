@@ -1,5 +1,6 @@
 # How to run
 ## Create virtual environment
+In the DRL-Testing-Games directory:
 ```
 python -m venv venv  
 source venv/bin/activate  # Linux/Mac  
