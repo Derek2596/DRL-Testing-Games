@@ -33,7 +33,7 @@ python -m src.train_subway --algo ppo --persona survivor --timesteps 100000
 python -m src.train_subway --algo ppo --persona explorer --timesteps 100000
 ```
 
-## Evaluate a 
+## Evaluate a Model
 Use any combination of algo (ppo, a2c) and persona (survivor, explorer) that you have trained in the following format:
 ### Maze
 ```
